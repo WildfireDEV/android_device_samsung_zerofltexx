@@ -15,7 +15,7 @@
 #
 
 ## (2) Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/zerofltexx/zerofltexx-vendor.mk)
+$(call inherit-product, vendor/samsung/zerofltexx/zerofltexx-vendor.mk)
 
 LOCAL_PATH := device/samsung/zerofltexx
 
